@@ -20,7 +20,7 @@ This is the reference implementation for our CoRL 2022 paper:
 ## Setup
 **Clone this repo**
 ```
-git clone --recursive https://github.com/anthonysimeonov/relational_ndf.git
+git clone https://github.com/anthonysimeonov/relational_ndf.git
 cd relational_ndf
 ```
 
