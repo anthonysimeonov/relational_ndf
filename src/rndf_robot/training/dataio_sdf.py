@@ -227,7 +227,7 @@ class SynObjSDFDataset(Dataset):
         training_data_root = osp.join(path_util.get_rndf_data(), 'training_data')
         syn_rack_easy_path = osp.join(training_data_root, 'syn_rack_rand_scale_easy')
         syn_rack_med_path = osp.join(training_data_root, 'syn_rack_med_pcd_rand_scale')
-        syn_container_path = osp.join(training_data_root, 'syn_container_pcd')
+        syn_container_path = osp.join(training_data_root, 'syn_container_pcd_smaller')
 
         sdf_root = osp.join(path_util.get_rndf_obj_descriptions(), 'sdf')
         syn_rack_easy_sdf = osp.join(sdf_root, 'syn_racks_easy_obj_norm_factor_sdf')
